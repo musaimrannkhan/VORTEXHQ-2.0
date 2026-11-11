@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "VORTEX HQ",
+    "slug": "vortex-hq",
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070B13"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.vortexhq.privateapp",
+      "versionCode": 3,
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "VORTEX HQ educational market intelligence and paper research terminal",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#38D6A2",
+          "defaultChannel": "vortex-signals"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {}
+    }
+  }
+}
